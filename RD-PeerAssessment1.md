@@ -346,6 +346,8 @@ xyplot(meansteps ~ interval | DOWGroup, data=imputedIntervalStepsDOW
 
 ![](RD-PeerAssessment1_files/figure-html/weekDayPlot2-1.png) 
 
+The weekend days are clearly more active then weekdays.
+
 ## Submitting the Assignment
 
 To submit the assignment:

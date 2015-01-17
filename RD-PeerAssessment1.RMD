@@ -253,14 +253,14 @@ colnames(imputedIntervalStepsDOW)[3] <- "meansteps"
 str(imputedIntervalStepsDOW)
 ```
 ```{r weekDayPlot2}
-
 lattice.options(default.theme = standard.theme(color = FALSE))
 xyplot(meansteps ~ interval | DOWGroup, data=imputedIntervalStepsDOW
     , layout=c(1,2)
     , main="Mean steps over each 5min interval split by weekday/weekend", xlab="5-Minute interval ID"
     , ylab="Average Steps Taken", type=c("l","l"))
-
 ```
+
+The weekend days are clearly more active then weekdays.
 
 ## Submitting the Assignment
 
